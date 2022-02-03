@@ -6,7 +6,7 @@ const Skills = () => {
 
   let skills: string[] = [];
 
-  skills.push('CSS','ADOBE XD','HTML','PHOTOSHOP','JAVASCRIPT','SKETCH');
+  skills.push('CSS','REACT','HTML','LARAVEL','JAVASCRIPT','SQL');
 
 
 

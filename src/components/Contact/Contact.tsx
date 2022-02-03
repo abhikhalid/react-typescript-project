@@ -20,14 +20,14 @@ const Contact = () => {
   }
 
   address={
-    streetInfo: 'A block, Bashundhara R/A, Dhaka',
+    streetInfo: 'A block, Road- 5 House no : 191/G Bashundhara R/A, Dhaka',
     cityName: 'Dhaka',
-    postalCode: 'NY 123456',
+    postalCode: '1229',
     email: 'khalid.mahmud@bjitgroup.com',
     phoneNumber: '+8801629069673',
     social:{
-      facebook: "https://www.facebook.com",
-      linkdin: "https://www.linkedin.com/uas/login?fromSignIn=true&trk=cold_join_sign_in",
+      facebook: "https://www.facebook.com/abhi.khan.94009/",
+      linkdin: "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEIbxfVj2u2igAAAX6_sT24zGREjGrKEaYAZjJXigYf-TNvYXyhP9-Qk7PkpylQhuCtI9KoQU94Ay5BMiAXdkqUnxh_q1BqzgVzCHu0URtk2VdMxsHpsDvHQPaH2ynlSqFMk08=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmd-khalid-mahmud-864821136%2F",
       twitter: 'https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D'
     }
   }
@@ -77,15 +77,7 @@ const Contact = () => {
             </p>
           </a>
 
-          <a
-            href={address.social.twitter}
-            style={{ textDecoration: "none", color: "black" }}
-            target="_blank"
-          >
-            <p className="link" style={{ fontSize: "20px" }}>
-              Twitter
-            </p>
-          </a>
+        
         </div>
         <div className="singleContact">
           <p>ADDRESS</p>

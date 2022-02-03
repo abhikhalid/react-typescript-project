@@ -13,24 +13,14 @@ const Experiences = () => {
 
   myExperience.push(
     {
-      timestamp: "2018 - now",
-      companyName: "Freelance",
-      designation: "Full stack web developer",
+      timestamp: "2021 August- 2021 October",
+      companyName: "BJIT",
+      designation: "Trainee Software Engineer",
     },
     {
-      timestamp: "2015 - 2018",
-      companyName: "Facebook",
-      designation: "Senior front-end coder, team leader",
-    },
-    {
-      timestamp: "2013 - 2015",
-      companyName: "Amazon",
-      designation: "Junior front-end coder",
-    },
-    {
-      timestamp: "2007 - 2013",
-      companyName: "MIT",
-      designation: "Computer Science & Artifical Intelligence Lab",
+      timestamp: "2021 November - now",
+      companyName: "BJIT",
+      designation: "Software Engineer",
     }
   );
 
@@ -54,21 +44,7 @@ const Experiences = () => {
           <p>{myExperience[1].designation}</p>
         </div>
 
-        <div className="singleExperience">
-          <p>{myExperience[2].timestamp}</p>
-
-          <h1>{myExperience[2].companyName}</h1>
-
-          <p>{myExperience[2].designation}</p>
-        </div>
-
-        <div className="singleExperience">
-          <p>{myExperience[3].timestamp}</p>
-
-          <h1>{myExperience[3].companyName}</h1>
-
-          <p>{myExperience[3].designation}</p>
-        </div>
+      
       </div>
 
       <footer className="aboutMeFooter">

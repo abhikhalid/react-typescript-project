@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import abhi from '../../../src/abhi.jpg'
 
 import "./Intro.css"
 
@@ -24,7 +24,7 @@ const Intro = () => {
     return (
         <div className="introContainer">
 
-           <img className="profileImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDYbWIFXOUYAfnjWqFWo-6M2SdbcSePgGA5A&usqp=CAU" alt="" />
+           <img className="profileImage" src={abhi} alt="" />
 
            <h1 className="title">{intro.firstName} <br/> {intro.lastName}</h1>
 

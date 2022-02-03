@@ -6,6 +6,8 @@ import project1 from "../../../src/project_1.jpg";
 import project2 from "../../../src/project_2.jpg";
 import project3 from "../../../src/project_3.jpg";
 
+import movieStreamingApp from '../../../src/movieStreamingApp.jpg'
+
 const Projects = () => {
   type projects = {
     companyName: string;
@@ -17,20 +19,11 @@ const Projects = () => {
 
   myProjects.push(
     {
-      companyName: "Nanovo",
-      projectName: "Design e-sho",
-      role: "FRONTEND -BACKEND",
-    },
-    {
-      companyName: "Bbop",
-      projectName: "Social Network for Musicians",
-      role: "DESIGN -FRONTEND - BACKEND",
-    },
-    {
-      companyName: "Janja Prokic",
-      projectName: "Jewelry e-shop",
-      role: "FRONTEND - BACKEND",
+      companyName: "BJIT",
+      projectName: "Movie Streaing App",
+      role: "FRONTEND -BACKEND, BACKEND, DATABASE",
     }
+    
   );
 
   return (
@@ -39,7 +32,7 @@ const Projects = () => {
 
       <div className="projectsRow">
         <div className="singleProject">
-          <img src={project1} alt="" />
+          <img src={movieStreamingApp} alt="" />
 
           <h1>{myProjects[0].companyName}</h1>
 
@@ -48,25 +41,7 @@ const Projects = () => {
           <h6>{myProjects[0].role}</h6>
         </div>
 
-        <div className="singleProject">
-          <img src={project2} alt="" />
-
-          <h1>{myProjects[1].companyName}</h1>
-
-          <p>{myProjects[1].projectName}</p>
-
-          <h6>{myProjects[1].role}</h6>
-        </div>
-
-        <div className="singleProject">
-          <img src={project3} alt="" />
-
-          <h1>{myProjects[2].companyName}</h1>
-
-          <p>{myProjects[2].projectName}</p>
-
-          <h6>{myProjects[2].role}</h6>
-        </div>
+     
       </div>
 
       <footer className="aboutMeFooter">
