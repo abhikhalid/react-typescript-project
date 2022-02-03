@@ -1,0 +1,22 @@
+.referencesContainer
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 90px;
+}
+
+.references
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.references >img{
+
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-right: 70px;
+
+}

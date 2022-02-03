@@ -1,0 +1,68 @@
+.leaveMessageContainer
+{
+    padding-bottom: 100px;
+
+}
+
+.leaveMessageContainer > h1
+{
+    font-size: 40px;
+}
+
+.messageContainer
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.nameAndEmail
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.nameAndEmailContainer
+{
+    margin-right: 90px;
+  
+}
+
+.msg, .nameAndEmailContainer > input
+{
+    width: 390px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    outline: none;
+}
+
+.msg
+{
+    width: 700px;
+
+}
+
+
+.messageContainer::after
+{
+    border: 1px solid black;
+}
+
+
+.btn
+{
+    margin-top: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 4px;
+    color: black;
+    font-style: bold;
+    width: 100px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: #FFDB67;
+}

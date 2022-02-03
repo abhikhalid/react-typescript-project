@@ -1,0 +1,23 @@
+.aboutMeContainer
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMeTitle
+{
+    font-size: 40px;
+}
+
+.aboutMepara
+{
+    font-size: 20px;
+}
+
+.aboutMeFooter
+{
+    font-size: 13px;
+    font-style: bold;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}

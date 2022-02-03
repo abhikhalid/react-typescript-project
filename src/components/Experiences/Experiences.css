@@ -1,0 +1,23 @@
+.experiencesContainer
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 90px;
+}
+
+.experiencesContainer > h1{
+    font-size: 40px;
+}
+
+.experienceContainer
+{
+    width: 100%;
+    border-left: 1px solid black;
+}
+
+.singleExperience
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}

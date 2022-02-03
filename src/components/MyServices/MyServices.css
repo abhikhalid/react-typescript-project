@@ -1,0 +1,38 @@
+.myServicesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#myservices {
+  font-size: 4rem;
+}
+
+.servicesContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-right: 50px;
+
+  /* animation */
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.serviceNumber {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  line-height: 1;
+  display: block;
+}
+
+.service:hover {
+  top: -10px;
+}

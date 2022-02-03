@@ -1,0 +1,32 @@
+.factsContainer
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+
+}
+
+.factsContainer > h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.facts
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.singleFacts
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+    
+}
+
+.abc
+{
+    margin-top: 250px;
+}
