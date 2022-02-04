@@ -1,25 +1,23 @@
-.sideNavBarContainer
-{
-    border-left: 1px solid black;
-    position: fixed;
-    top: 40px;
+.sideNavBarContainer {
+  border-left: 1px solid black;
+  position: fixed;
+  top: 40px;
 
-    height: 450px;
-    
+  height: 450px;
 }
 
-.navbar
-{
-    display: flex;
-    flex-direction: column;
-    margin-top : 20px;
-    margin-left: 20px;
-    height: 300px;
- 
-   
+.navbar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 300px;
 }
 
-.navbar >p:hover
-{
-    color: #7F6D33;
+.navbar > p:hover {
+  color: #7f6d33;
+}
+
+p:hover {
+  color: #534823;
 }
