@@ -1,0 +1,5 @@
+1. Should follow a standard foldering structure for the project 
+2. Should not use same inline styling in multiple place, create a common class and add the class 
+   Ref: Contract.tsx
+		 <p className="link" style={{ fontSize: "20px" }}>
+   
